@@ -1,0 +1,58 @@
+{
+  "actions": [
+    {
+      "id": 0,
+      "type": "ATOMIC",
+      "keyword": "aa1"
+    },
+    {
+      "id": 1,
+      "type": "ATOMIC",
+      "keyword": "aa2"
+    },
+    {
+      "id": 2,
+      "type": "ATOMIC",
+      "keyword": "aa3"
+    },
+    {
+      "id": 3,
+      "type": "ATOMIC",
+      "keyword": "aa4"
+    },
+    {
+      "id": 5,
+      "type": "COMPLEX",
+      "keyword": "ca2",
+      "inner.action": [
+        {
+          "id": 0,
+          "subject": "Door"
+        },
+        {
+          "id": 1,
+          "subject": "Page"
+        },
+        {
+          "id": 2,
+          "subject": "Door"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "COMPLEX",
+      "keyword": "ca3",
+      "inner.action": [
+        {
+          "id": 3,
+          "subject": "Door"
+        },
+        {
+          "id": 5,
+          "subject": "Page"
+        }
+      ]
+    }
+  ]
+}
