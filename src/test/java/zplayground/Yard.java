@@ -1,5 +1,7 @@
 package zplayground;
 
+import java.io.File;
+
 import org.junit.Test;
 
 import core.domain.step.Step;
@@ -13,7 +15,8 @@ public class Yard {
 
     @Test
     public void test() {
-        StepCreator stepCreator = new StepCreator(Database.get());
+        StepCreator stepCreator = new StepCreator(
+                Database.getFrom(new File(getClass().getResource("/jsonDB.json").getFile())));
         System.out.println("");
         System.out.println("");
         Step step = stepCreator.createStep("Mark+AA1+Page");

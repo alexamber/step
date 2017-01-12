@@ -1,9 +1,9 @@
 
 package zplayground.repository.json;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.List;
 
 import com.google.gson.Gson;
@@ -18,10 +18,9 @@ public class Database implements ActionDataProvider {
     @Expose
     private List<ActionDB> actionDBs = null;
 
-    public static Database get() {
+    public static Database getFrom(final File file) {
         try {
-            return new Gson().fromJson(new String(Files.readAllBytes(Paths.get("src/resources/jsonDB.json"))),
-                    Database.class);
+            return new Gson().fromJson(new String(Files.readAllBytes(file.toPath())), Database.class);
         } catch (IOException e) {
             e.printStackTrace();
             throw new RuntimeException(e);

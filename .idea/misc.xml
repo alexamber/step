@@ -3,27 +3,14 @@
   <component name="EclipseCodeFormatter">
     <option name="defaultSettings" value="true" />
     <option name="formatter" value="ECLIPSE" />
-    <option name="id" value="1474741862956" />
-    <option name="importOrderConfigFilePath" value="$PROJECT_DIR$/../ctco-ecom/ide-settings/IDEA/idea_formatter.importorder" />
+    <option name="id" value="1426780941176" />
+    <option name="importOrderConfigFilePath" value="D:/Git_Phase2/ctco-ecom/ide-settings/IDEA/idea_formatter.importorder" />
     <option name="importOrderFromFile" value="true" />
     <option name="name" value="default" />
-    <option name="pathToConfigFileJava" value="$PROJECT_DIR$/../ctco-ecom/ide-settings/eclipse/formatter.xml" />
+    <option name="pathToConfigFileJava" value="D:/Git_Phase2/ctco-ecom/ide-settings/eclipse/formatter.xml" />
     <option name="selectedJavaProfile" value="My" />
   </component>
-  <component name="EntryPointsManager">
-    <entry_points version="2.0" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="IntelliJ IDEA Community Edition IC-162.2032.8" project-jdk-type="IDEA JDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
